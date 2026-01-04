@@ -4,14 +4,22 @@ A lightweight, accessible dual-handle range slider component built with vanilla 
 
 ## Installation
 
-1. Copy these files to your project:
-   - `range-slider.js`
-   - `range-slider.css`
+1. Copy these urls to your project:
+
+`JS Script`
+```
+https://cdn.jsdelivr.net/gh/drawliin/dual-input-range@v1.0.0/dist/range-slider.min.js
+
+```
+`CSS`
+```
+https://cdn.jsdelivr.net/gh/drawliin/dual-input-range@v1.0.0/dist/range-slider.min.css
+```
 
 2. Include in your HTML
 ```html
-<link rel="stylesheet" href="range-slider.css">
-<script src="range-slider.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/drawliin/dual-input-range@v1.0.0/dist/range-slider.min.css">
+<script src="https://cdn.jsdelivr.net/gh/drawliin/dual-input-range@v1.0.0/dist/range-slider.min.js"></script>
 ```
 
 ## Usage
@@ -83,6 +91,8 @@ console.log(values); // {min: 100, max: 500}
 | `data-label-prefix` | string | '' | Prefix for labels (e.g., '$', '€') |
 | `data-label-suffix` | string | '' | Suffix for labels (e.g., '€', '%', 'kg') |
 | `data-on-change` | string | - | Name of global function to call on change |
+| `data-min-name` | string | "min-value" | name attribute to use in backend |
+| `data-max-name` | string | "max-value" | name attribute to use in backend |
 
 ## Styling
 
