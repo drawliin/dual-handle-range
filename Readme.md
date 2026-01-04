@@ -1,3 +1,7 @@
+# Demo
+```
+https://www.cssscript.com/demo/dual-handle-range-slider/
+```
 # Dual-Handle Range Slider
 
 A lightweight, accessible dual-handle range slider component built with vanilla HTML, CSS, and JavaScript.
